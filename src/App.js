@@ -11,7 +11,7 @@ function App() {
   return (
     <FeedbackProvider>
       <Router>
-        <Header />
+        <Header text="Feedback UI" />
         <div className="container">
           <Routes>
             <Route
